@@ -1,0 +1,64 @@
+html,
+body {
+    height: 100%;
+}
+
+.fondo-image{
+    background-image: url("/images/welcome-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+
+}
+
+#app{
+    height: 100%;
+}
+
+.logo-welcome{
+    text-align: center;
+    background-image: url("/images/circle-under-the-logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 380px;
+    width: 380px;
+    margin: auto;
+}
+
+.logo-welcome img{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.fondo-image footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-image: url("/images/banner-under-the-flags.png");
+    background-size: 50% 25%;
+    background-repeat: no-repeat;
+    background-position: right bottom 10px;
+}
+
+.fondo-image footer .row .idiomas {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.fondo-image footer .row .idiomas figure{
+    text-align: center;
+    display: inline-block;
+    font-family: Arial;
+    font-weight: bold;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.fondo-image footer .row .idiomas a:last-child{
+    margin-left: 120px;
+}
+
+.fondo-image footer .row .idiomas figure figcaption{
+    text-shadow: 3px 3px 8px black;
+}
