@@ -11,10 +11,14 @@ return [
     'jeansLiftTail'         => 'Jeans Levanta Cola',
     'productsAccessories'   => 'Productos & Accesorios',
     'login'                 => 'iniciar sesión',
-    'loginO'                => 'Inicia sesión o',
+    'loginOr'               => 'Inicia sesión o',
     'register'              => 'Registrate',
+    'registerOr'            => 'Registrate o',
     'contacts'              => 'Contáctenos',
     'email'                 => 'Correo electrónico',
     'password'              => 'Contraseña',
+    'enterName'             => 'Ingresa tu nombre',
+    'enterLastName'         => 'Ingresa tu apellido',
+    'confirmPassword'       => 'Confirma tu contraseña'
 
 ];

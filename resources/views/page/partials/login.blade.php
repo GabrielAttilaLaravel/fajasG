@@ -1,6 +1,6 @@
 
         <div class="omb_login">
-            <h3 class="omb_authTitle">{{ trans('fajasG.loginO') }} <a href="{{ route('register') }}">{{ trans('fajasG.register') }}</a></h3>
+            <h3 class="omb_authTitle">{{ trans('fajasG.loginOr') }} <a href="{{ route('register') }}">{{ trans('fajasG.register') }}</a></h3>
 
             {{--
             <div class="row omb_row-sm-offset-3 omb_socialButtons">

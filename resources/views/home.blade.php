@@ -1,10 +1,16 @@
 @component('layouts.app')
+    @if(Request::path() != 'home')
+        @slot('css')
+            <link href="{{ asset('css/main.css') }}" rel="stylesheet">
+        @endslot
+    @endif
+
 
     @slot('content')
         @if(Request::path() == 'home')
             <div id="carouselExampleIndicators" class="carousel slide"  data-ride="carousel">
                 <ol class="carousel-indicators"></ol>
-                <div class="carousel-inner" role="listbox" style="position: absolute;">
+                <div class="carousel-inner" role="listbox" style="position: absolute">
                     <!-- Slide One - Set the background image for this slide in the line below -->
                     <div class="carousel-item active" style="background-image: url('/images/Slide-show-body-background.jpg');"></div>
                     <!-- Slide Two - Set the background image for this slide in the line below -->

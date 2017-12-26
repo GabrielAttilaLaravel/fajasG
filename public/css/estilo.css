@@ -21,7 +21,7 @@
 body{
     position: relative;
     width: 100%;
-
+    box-shadow:0 10px 18px #888888;
 }
 #app{
     position: absolute;width: 100%;
@@ -87,7 +87,7 @@ body{
     color: #9900ff;
 }
 
-header .registrate , header .contactenos , header .car-icon{
+header .login , header .contactenos , header .car-icon, header .login_user{
     padding: 0;
     height: 70px;
     text-align: center;
@@ -96,25 +96,42 @@ header .registrate , header .contactenos , header .car-icon{
 header .car-icon{
     border-radius: 0 0 0 5px;
 }
-header .registrate, header .contactenos{
+header .login, header .contactenos, header .login_user{
     border-radius: 0 0 5px 5px;
 }
 
-header .registrate{
+header .login, header .login_user{
     background: #9900ff;
     padding: 0;
 
 }
-
-header .registrate label, header .contactenos label{
-    padding-top: 16px;
-    font-family: Bungee;
+header .login_user div{
     text-align: center;
-    font-size: 25px;
+    padding: 0;
+}
+header .login_user label{
+    font-family: Bungee;
+    font-size: 15px;
+    color: white;
+    margin: 0;
+}
+
+header .login_user label:first-child{
+    margin-top: 10px;
+}
+
+header .logout_user{
+    cursor: pointer;
+}
+
+header .login label, header .contactenos label{
+    padding-top: 20px;
+    font-family: Bungee;
+    font-size: 20px;
     color: white;
 }
 
-header .registrate label:hover, header .contactenos label:hover{
+header .login label:hover, header .contactenos label:hover{
     cursor: pointer;
 }
 

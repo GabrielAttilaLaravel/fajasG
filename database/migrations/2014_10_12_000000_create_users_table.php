@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('last_name');
             $table->string('email')->unique();
             $table->string('password');
-            $table->enum('status', ['activate', 'unactivate'])->default('unactivate');
+            $table->enum('status', ['activate', 'unactivate'])->default('activate');
 
             $table->softDeletes();
             $table->rememberToken();

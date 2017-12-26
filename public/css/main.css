@@ -1,0 +1,6 @@
+html{
+    background: url("/images/background-degradado.png");
+    background-size: 100% 100%;
+    height: 100%;
+    background-attachment: fixed;
+}

@@ -11,10 +11,13 @@ return [
     'jeansLiftTail'         => 'Jeans Lift Tail',
     'productsAccessories'   => 'Products & Accesories',
     'login'                 => 'Login',
-    'loginO'                => 'Login or',
+    'loginOr'               => 'Login or',
     'register'              => 'Register',
+    'registerOr'            => 'Register or',
     'contacts'              => 'Contact',
     'email'                 => 'Email',
     'password'              => 'Password',
-
+    'enterName'             => 'First name',
+    'enterLastName'         => 'Last name',
+    'confirmPassword'       => 'Confirm your password'
 ];
