@@ -14,20 +14,19 @@
     <!-- Custom styles for this template -->
     <link href="{{ asset('css/full-slider.css') }}" rel="stylesheet">
     <link href="{{ asset('css/estilo.css') }}" rel="stylesheet">
-
-
+    <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
+    {{ $css or '' }}
 </head>
 <body>
     <div id="app">
-
-
-        @yield('content')
+        {{ $content }}
     </div>
 
     <!-- Scripts -->
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- Bootstrap core JavaScript -->
-
+    <script src="{{ asset('jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>

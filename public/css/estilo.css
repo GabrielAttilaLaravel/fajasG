@@ -1,7 +1,50 @@
-html,
-body {
-    height: 100%;
+* {
+    box-sizing: border-box;
 }
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+body{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(white, black);
+}
+#app{
+    position: absolute;width: 100%;
+}
+
+.col-3 {padding-left: 0;text-align: center}
+.col-9{padding: 0}
+.main{
+    display: table;
+    width: 100%;
+}
+
+/*.main section{
+    border: 1px solid red;
+}*/
+
+/* Page */
+.page{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
 
 .fondo-image{
     background-image: url("/images/welcome-bg.png");
@@ -11,9 +54,7 @@ body {
 
 }
 
-#app{
-    height: 100%;
-}
+
 
 .logo-welcome{
     text-align: center;
@@ -61,4 +102,139 @@ body {
 
 .fondo-image footer .row .idiomas figure figcaption{
     text-shadow: 3px 3px 8px black;
+}
+
+
+
+/* Logo main*/
+.logo{
+    margin-bottom: 20px;
+}
+
+/* Fuentes*/
+@font-face {
+    font-family: Bungee;
+    src: url('font/Bungee-Inline.otf');
+}
+/* Menu */
+.menu-lateral{
+    font-family: Bungee;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+.menu-lateral li:last-child{
+    font-size: 20px;
+
+}
+.menu-lateral li {
+    margin-bottom: 7px;
+    border-radius: 0 11px 11px 0;
+}
+.menu-lateral .violet {
+    background-image: url("/images/banner-menu-violet.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.menu-lateral .black {
+    background-image: url("/images/banner-menu-black.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.menu-lateral li a{
+    color: white;
+}
+.menu-lateral .violet:hover a{
+    color: #000000;
+}
+.menu-lateral .black:hover a{
+    color: #9900ff;
+}
+
+header .registrate , header .contactenos , header .car-icon{
+    padding: 0;
+    height: 70px;
+    text-align: center;
+}
+
+header .car-icon{
+    border-radius: 0 0 0 5px;
+}
+header .registrate, header .contactenos{
+    border-radius: 0 0 5px 5px;
+}
+
+header .registrate{
+    background: #9900ff;
+    padding: 0;
+
+}
+
+header .registrate label, header .contactenos label{
+    padding-top: 16px;
+    font-family: Bungee;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+header .registrate label:hover, header .contactenos label:hover{
+    cursor: pointer;
+}
+
+header .contactenos{
+    background:  rgba(0,0,0,0.5);
+    padding: 0 5px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+header .car-icon{
+    background: #9900ff;
+    background-image: url('/images/car-icon.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 70% 70%;
+    padding-right: 5px;
+    border-right: 3px solid white;
+}
+
+.referencia, .nav-sup{
+    height: 123px;
+    padding: 0;
+}
+
+.referencia{
+    text-align: center;
+    padding: 0 15px 25px 15px;
+    border-bottom: red;
+    width: 80%;
+}
+.referencia div{
+    background: rgba(153, 0, 255, 0.5);
+    height: 100%;
+    border-radius: 0 0 5px 5px;
+}
+
+.referencia img{
+    width: 100%;
+}
+.search input {
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+    background-color: rgb(127, 127, 127);
+    background-image: url('/images/icon-search.png');
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-size: 8%;
+    padding: 12px 0 12px 40px;
+}
+
+.search{
+    padding: 3px 0 0 0;
 }
