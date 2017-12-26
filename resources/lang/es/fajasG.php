@@ -10,7 +10,11 @@ return [
     'waistbandsLatex'       => 'Cinturillas Latex',
     'jeansLiftTail'         => 'Jeans Levanta Cola',
     'productsAccessories'   => 'Productos & Accesorios',
-    'register'              => 'Regístrate',
+    'login'                 => 'iniciar sesión',
+    'loginO'                => 'Inicia sesión o',
+    'register'              => 'Registrate',
     'contacts'              => 'Contáctenos',
+    'email'                 => 'Correo electrónico',
+    'password'              => 'Contraseña',
 
 ];

@@ -12,9 +12,14 @@
     <link href="{{ asset('bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="{{ asset('css/full-slider.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/estilo.css') }}" rel="stylesheet">
-    <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/full-slider.css') }}" rel="stylesheet" type="text/css" media="all" >
+    <link href="{{ asset('css/estilo.css') }}" rel="stylesheet" type="text/css" media="all" >
+    <link href="{{ asset('css/responsive.css') }}" rel="stylesheet" type="text/css" media="all" >
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" id="font-awesome-css" href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css?ver=3.2.1" type="text/css" media="all">
+    {{--    <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+--}}
+
     {{ $css or '' }}
 </head>
 <body>

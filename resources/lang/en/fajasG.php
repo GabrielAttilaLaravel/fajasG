@@ -10,7 +10,11 @@ return [
     'waistbandsLatex'       => 'Waistbands Latex',
     'jeansLiftTail'         => 'Jeans Lift Tail',
     'productsAccessories'   => 'Products & Accesories',
+    'login'                 => 'Login',
+    'loginO'                => 'Login or',
     'register'              => 'Register',
-    'contacts'              => 'Contact'
+    'contacts'              => 'Contact',
+    'email'                 => 'Email',
+    'password'              => 'Password',
 
 ];

@@ -21,14 +21,14 @@
 body{
     position: relative;
     width: 100%;
-    background: linear-gradient(white, black);
+
 }
 #app{
     position: absolute;width: 100%;
 }
 
 .col-3 {padding-left: 0;text-align: center}
-.col-9{padding: 0}
+.col-9{padding: 0;height: 100%;}
 .main{
     display: table;
     width: 100%;
@@ -46,70 +46,6 @@ body{
 }
 
 
-.fondo-image{
-    background-image: url("/images/welcome-bg.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 100%;
-
-}
-
-
-
-.logo-welcome{
-    text-align: center;
-    background-image: url("/images/circle-under-the-logo.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 380px;
-    width: 380px;
-    margin: auto;
-}
-
-.logo-welcome img{
-    text-align: center;
-    margin-top: 25px;
-}
-
-.fondo-image footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background-image: url("/images/banner-under-the-flags.png");
-    background-size: 50% 25%;
-    background-repeat: no-repeat;
-    background-position: right bottom 10px;
-}
-
-.fondo-image footer .row .idiomas {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.fondo-image footer .row .idiomas figure{
-    text-align: center;
-    display: inline-block;
-    font-family: Arial;
-    font-weight: bold;
-    color: white;
-    font-size: 24px;
-    margin-bottom: 5px;
-}
-.fondo-image footer .row .idiomas a:last-child{
-    margin-left: 120px;
-}
-
-.fondo-image footer .row .idiomas figure figcaption{
-    text-shadow: 3px 3px 8px black;
-}
-
-
-
-/* Logo main*/
-.logo{
-    margin-bottom: 20px;
-}
 
 /* Fuentes*/
 @font-face {
@@ -121,7 +57,6 @@ body{
     font-family: Bungee;
     text-align: center;
     font-size: 25px;
-
 }
 
 .menu-lateral li:last-child{
@@ -237,4 +172,8 @@ header .car-icon{
 
 .search{
     padding: 3px 0 0 0;
+}
+
+.cuerpo{
+    margin-top: 100px;
 }

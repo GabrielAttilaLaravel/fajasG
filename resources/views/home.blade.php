@@ -17,10 +17,8 @@
                 </div>
             </div>
         @endif
-            <div class="page">
-                @component('page.index')
-
-                @endcomponent
-            </div>
+        <div class="page">
+            @component('page.index')@endcomponent
+        </div>
     @endslot
 @endcomponent
