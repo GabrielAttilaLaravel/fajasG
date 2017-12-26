@@ -30,14 +30,17 @@ class User extends Authenticatable
 
 
     /**
-     * Un usuario posee un rol
+     * Un usuario tiene un rol
      *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     * @return \Illuminate\Database\Eloquent\Relations\hasOne
      */
     public function roles()
     {
         return $this->hasOne(Role::class);
     }
+
+
+
 
     /**
      * Devolvemos el nombre completo del usuario
