@@ -22,7 +22,7 @@
             <a href="{{ url('/login') }}"><div class="col-md-5 login" ><label>{{ trans('fajasG.login') }}</label></div></a>
         @endif
 
-        <a href="#"><div class="col-md-5 contactenos" ><label>{{ trans('fajasG.contacts') }}</label></div></a>
+        <a href="{{ url('contact') }}"><div class="col-md-5 contactenos" ><label>{{ trans('fajasG.contacts') }}</label></div></a>
         <a href="#"><div class="col-md-2 car-icon"></div></a>
     </header>
     <div class="col-md-12 search">

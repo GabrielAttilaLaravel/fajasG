@@ -19,6 +19,7 @@ return [
     'password'              => 'Contraseña',
     'enterName'             => 'Ingresa tu nombre',
     'enterLastName'         => 'Ingresa tu apellido',
-    'confirmPassword'       => 'Confirma tu contraseña'
-
+    'confirmPassword'       => 'Confirma tu contraseña',
+    'contactUs'             => 'Contactenos',
+    'message'               => 'Mensaje',
 ];

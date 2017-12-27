@@ -19,5 +19,7 @@ return [
     'password'              => 'Password',
     'enterName'             => 'First name',
     'enterLastName'         => 'Last name',
-    'confirmPassword'       => 'Confirm your password'
+    'confirmPassword'       => 'Confirm your password',
+    'contactUs'             => 'Contact us',
+    'message'               => 'Message',
 ];

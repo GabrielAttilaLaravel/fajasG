@@ -16,7 +16,7 @@
                                         <span class="input-group-addon">
                                             <i class="fa fa-user"></i>
                                         </span>
-                        <input type="text" class="form-control" name="first_name" placeholder="@lang('fajasG.enterName')"  autofocus>
+                        {!! Form::text('first_name', null, ['class' => 'form-control' , 'placeholder' => Lang::get('fajasG.enterName')]) !!}
                     </div>
                     <br>
 
@@ -52,21 +52,6 @@
                     <button class="btn btn-lg btn-primary btn-block" type="submit">@lang('fajasG.register')</button>
 
                     {!! Form::close() !!}
-                </div>
-            </div>
-
-            <div class="row omb_row-sm-offset-3">
-                <div class="col-xs-12 col-sm-3">
-                    <label class="checkbox">
-                        <!-- TODO: recordar contraseña -->
-                        {{--<input type="checkbox" value="remember-me">Remember Me--}}
-                    </label>
-                </div>
-                <div class="col-xs-12 col-sm-3">
-                    <p class="omb_forgotPwd">
-                        <!-- TODO: olvido contraseña -->
-                        {{--<a href="#">Forgot password?</a>--}}
-                    </p>
                 </div>
             </div>
         </div>

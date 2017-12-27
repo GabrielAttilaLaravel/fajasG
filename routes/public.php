@@ -14,8 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/contact', function () {
+    return view('page.contact.index');
+});
 
-
+Route::post('contacForm', 'Contact\ContactMailController@sendContact');
 
 Route::group(['middleware' => ['web']], function () {
 
